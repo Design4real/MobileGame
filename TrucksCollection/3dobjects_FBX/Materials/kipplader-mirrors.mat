@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: kipplader-mirrors
+  m_Shader: {fileID: 22, guid: 0000000000000000e000000000000000, type: 0}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: ba578ec3abd2ad240ad0e62ffbee5db2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 281ffc27d26613c4da3630e6a3419e84, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .225886211
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .611940265, g: .611940265, b: .611940265, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .552238822, g: .552238822, b: .552238822, a: .501960814}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

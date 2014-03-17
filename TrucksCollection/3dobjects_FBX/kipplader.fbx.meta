@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: fb136eff7e313b54aafe31e311b3527d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body_main
+    100002: Camera
+    100004: hydraulic_part1
+    100006: hydraulic_part2
+    100008: //RootNode
+    100010: platform
+    100012: platform_door
+    100014: wheel_back_left
+    100016: wheel_back_right
+    100018: wheel_front_left
+    100020: wheel_front_right
+    400000: body_main
+    400002: Camera
+    400004: hydraulic_part1
+    400006: hydraulic_part2
+    400008: //RootNode
+    400010: platform
+    400012: platform_door
+    400014: wheel_back_left
+    400016: wheel_back_right
+    400018: wheel_front_left
+    400020: wheel_front_right
+    2300000: body_main
+    2300002: hydraulic_part1
+    2300004: hydraulic_part2
+    2300006: platform
+    2300008: platform_door
+    2300010: wheel_back_left
+    2300012: wheel_back_right
+    2300014: wheel_front_left
+    2300016: wheel_front_right
+    3300000: body_main
+    3300002: hydraulic_part1
+    3300004: hydraulic_part2
+    3300006: platform
+    3300008: platform_door
+    3300010: wheel_back_left
+    3300012: wheel_back_right
+    3300014: wheel_front_left
+    3300016: wheel_front_right
+    4300000: Mesh
+    4300002: Mesh
+    4300004: Mesh
+    4300006: Mesh
+    4300008: Mesh
+    4300010: Mesh
+    4300012: Mesh
+    4300014: Mesh
+    4300016: Mesh
+    4300018: wheel_front_left
+    4300020: body_main
+    4300022: platform
+    4300024: platform_door
+    4300026: hydraulic_part1
+    4300028: hydraulic_part2
+    4300030: wheel_back_left
+    4300032: wheel_back_right
+    4300034: wheel_front_right
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 27
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

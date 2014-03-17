@@ -1,0 +1,93 @@
+fileFormatVersion: 2
+guid: add48d4653ef3a04fa9fd887ae6334df
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: vehicle-06
+    100004: vehicle-06-wheel-BBL
+    100006: vehicle-06-wheel-BBR
+    100008: vehicle-06-wheel-BML
+    100010: vehicle-06-wheel-BMR
+    100012: vehicle-06-wheel-FL
+    100014: vehicle-06-wheel-FR
+    400000: //RootNode
+    400002: vehicle-06
+    400004: vehicle-06-wheel-BBL
+    400006: vehicle-06-wheel-BBR
+    400008: vehicle-06-wheel-BML
+    400010: vehicle-06-wheel-BMR
+    400012: vehicle-06-wheel-FL
+    400014: vehicle-06-wheel-FR
+    2300000: vehicle-06
+    2300002: vehicle-06-wheel-BBL
+    2300004: vehicle-06-wheel-BBR
+    2300006: vehicle-06-wheel-BML
+    2300008: vehicle-06-wheel-BMR
+    2300010: vehicle-06-wheel-FL
+    2300012: vehicle-06-wheel-FR
+    3300000: vehicle-06
+    3300002: vehicle-06-wheel-BBL
+    3300004: vehicle-06-wheel-BBR
+    3300006: vehicle-06-wheel-BML
+    3300008: vehicle-06-wheel-BMR
+    3300010: vehicle-06-wheel-FL
+    3300012: vehicle-06-wheel-FR
+    4300000: vehicle-06-wheel-FL
+    4300002: vehicle-06-wheel-FR
+    4300004: vehicle-06-wheel-BML
+    4300006: vehicle-06-wheel-BBL
+    4300008: vehicle-06-wheel-BMR
+    4300010: vehicle-06-wheel-BBR
+    4300012: vehicle-06
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 
