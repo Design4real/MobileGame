@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ocean
+  m_Shader: {fileID: 4800000, guid: dfbce08624e834ed08bf0b219b388bb0, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaterTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b07d1dad6964e4ded916de1aaaa8d3be, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaterTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: cb24ba6eaf7ff4392b28777f6be8377e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShoreLineTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9bb41021296684c00bcd7fbfa8b4d1a5, type: 3}
+          m_Scale: {x: 8, y: 8}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _WaveSpeed
+        second: .400000006
+      data:
+        first:
+          name: _Tiling
+        second: .00999999978
+      data:
+        first:
+          name: _ShoreLineIntensity
+        second: 52.0999985
+      data:
+        first:
+          name: _ReflectionIntensity
+        second: 0
+      data:
+        first:
+          name: _SpecularRatio
+        second: 176.25
+      data:
+        first:
+          name: _ReflectionTint
+        second: .785074592
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BottomColor
+        second: {r: .805970132, g: .910447776, b: 1, a: 0}
+      data:
+        first:
+          name: _TopColor
+        second: {r: .213521957, g: .315540612, b: .402985096, a: 0}

@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: d740f095cf25edb469ab8aa353791a3b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 1_Axis_Back_LOD0
+    100002: 1_Axis_Front_LOD0
+    100004: 1_B_B_L_LOD0
+    100006: 1_B_B_R_LOD0
+    100008: 1_B_F_L_LOD0
+    100010: 1_B_F_R_LOD0
+    100012: 1_Carriage_LOD0
+    100014: 1_F_B_L_LOD0
+    100016: 1_F_B_R_LOD0
+    100018: 1_F_F_L_LOD0
+    100020: 1_F_F_R_LOD0
+    100022: 1_Train_Transport_Dubbel_LOD0
+    100024: 1_Wheel_Back_LOD0
+    100026: 1_Wheel_Front_LOD0
+    100028: 1_Wheels_Back_LOD0
+    100030: 1_Wheels_Front_LOD0
+    100032: 3_Axis_Back_LOD0
+    100034: 3_Axis_Back_LOD001
+    100036: 3_Axis_Front_LOD0
+    100038: 3_Axis_Front_LOD001
+    100040: 3_Axis_Middle_LOD0
+    100042: 3_Axis_Middle_LOD001
+    100044: 3_B_B_L_LOD0
+    100046: 3_B_B_L_LOD001
+    100048: 3_B_B_R_LOD0
+    100050: 3_B_B_R_LOD001
+    100052: 3_B_F_L_LOD0
+    100054: 3_B_F_L_LOD001
+    100056: 3_B_F_R_LOD0
+    100058: 3_B_F_R_LOD001
+    100060: 3_Carriage_LOD0
+    100062: 3_Carriage_LOD001
+    100064: 3_F_B_L_LOD0
+    100066: 3_F_B_L_LOD001
+    100068: 3_F_B_R_LOD0
+    100070: 3_F_B_R_LOD001
+    100072: 3_F_F_L_LOD0
+    100074: 3_F_F_L_LOD001
+    100076: 3_F_F_R_LOD0
+    100078: 3_F_F_R_LOD001
+    100080: 3_M_B_L_LOD0
+    100082: 3_M_B_L_LOD001
+    100084: 3_M_B_R_LOD0
+    100086: 3_M_B_R_LOD001
+    100088: 3_M_F_L_LOD0
+    100090: 3_M_F_L_LOD001
+    100092: 3_M_F_R_LOD0
+    100094: 3_M_F_R_LOD001
+    100096: 3_Train_Carriage_Transport_Container_LOD0
+    100098: 3_Train_Carriage_Transport_Container_LOD001
+    100100: 3_Wheel_Back_LOD0
+    100102: 3_Wheel_Back_LOD001
+    100104: 3_Wheel_Front_LOD0
+    100106: 3_Wheel_Front_LOD001
+    100108: 3_Wheel_Middle_LOD0
+    100110: 3_Wheel_Middle_LOD001
+    100112: 3_Wheels_Back_LOD0
+    100114: 3_Wheels_Back_LOD001
+    100116: 3_Wheels_Front_LOD0
+    100118: 3_Wheels_Front_LOD001
+    100120: 3_Wheels_Middle_LOD0
+    100122: 3_Wheels_Middle_LOD001
+    100124: 4_Axis_Back_LOD0
+    100126: 4_Axis_Front_LOD0
+    100128: 4_B_B_L_LOD0
+    100130: 4_B_B_R_LOD0
+    100132: 4_B_F_L_LOD0
+    100134: 4_B_F_R_LOD0
+    100136: 4_Carriage_LOD0
+    100138: 4_F_B_L_LOD0
+    100140: 4_F_B_R_LOD0
+    100142: 4_F_F_L_LOD0
+    100144: 4_F_F_R_LOD0
+    100146: 4_Train_Carriage_Transport_Case_LOD0
+    100148: 4_Wheel_Back_LOD0
+    100150: 4_Wheel_Front_LOD0
+    100152: 4_Wheels_Back_LOD0
+    100154: 4_Wheels_Front_LOD0
+    100156: 5_Axis_Back_LOD0
+    100158: 5_Axis_Front_LOD0
+    100160: 5_B_B_L_LOD0
+    100162: 5_B_B_R_LOD0
+    100164: 5_B_F_L_LOD0
+    100166: 5_B_F_R_LOD0
+    100168: 5_Carriage_LOD0
+    100170: 5_F_B_L_LOD0
+    100172: 5_F_B_R_LOD0
+    100174: 5_F_F_L_LOD0
+    100176: 5_F_F_R_LOD0
+    100178: 5_Train_Carriage_Oil_LOD0
+    100180: 5_Wheel_Back_LOD0
+    100182: 5_Wheel_Front_LOD0
+    100184: 5_Wheels_Back_LOD0
+    100186: 5_Wheels_Front_LOD0
+    100188: 7_Train_Transport_Case_LOD0
+    100190: 8_Train_Transport_Case_Sail_LOD0
+    100192: 8_Train_Transport_Case_Sail_LOD001
+    100194: Point007
+    100196: Point008
+    100198: Point009
+    100200: Point010
+    100202: Point011
+    100204: //RootNode
+    400000: 1_Axis_Back_LOD0
+    400002: 1_Axis_Front_LOD0
+    400004: 1_B_B_L_LOD0
+    400006: 1_B_B_R_LOD0
+    400008: 1_B_F_L_LOD0
+    400010: 1_B_F_R_LOD0
+    400012: 1_Carriage_LOD0
+    400014: 1_F_B_L_LOD0
+    400016: 1_F_B_R_LOD0
+    400018: 1_F_F_L_LOD0
+    400020: 1_F_F_R_LOD0
+    400022: 1_Train_Transport_Dubbel_LOD0
+    400024: 1_Wheel_Back_LOD0
+    400026: 1_Wheel_Front_LOD0
+    400028: 1_Wheels_Back_LOD0
+    400030: 1_Wheels_Front_LOD0
+    400032: 3_Axis_Back_LOD0
+    400034: 3_Axis_Back_LOD001
+    400036: 3_Axis_Front_LOD0
+    400038: 3_Axis_Front_LOD001
+    400040: 3_Axis_Middle_LOD0
+    400042: 3_Axis_Middle_LOD001
+    400044: 3_B_B_L_LOD0
+    400046: 3_B_B_L_LOD001
+    400048: 3_B_B_R_LOD0
+    400050: 3_B_B_R_LOD001
+    400052: 3_B_F_L_LOD0
+    400054: 3_B_F_L_LOD001
+    400056: 3_B_F_R_LOD0
+    400058: 3_B_F_R_LOD001
+    400060: 3_Carriage_LOD0
+    400062: 3_Carriage_LOD001
+    400064: 3_F_B_L_LOD0
+    400066: 3_F_B_L_LOD001
+    400068: 3_F_B_R_LOD0
+    400070: 3_F_B_R_LOD001
+    400072: 3_F_F_L_LOD0
+    400074: 3_F_F_L_LOD001
+    400076: 3_F_F_R_LOD0
+    400078: 3_F_F_R_LOD001
+    400080: 3_M_B_L_LOD0
+    400082: 3_M_B_L_LOD001
+    400084: 3_M_B_R_LOD0
+    400086: 3_M_B_R_LOD001
+    400088: 3_M_F_L_LOD0
+    400090: 3_M_F_L_LOD001
+    400092: 3_M_F_R_LOD0
+    400094: 3_M_F_R_LOD001
+    400096: 3_Train_Carriage_Transport_Container_LOD0
+    400098: 3_Train_Carriage_Transport_Container_LOD001
+    400100: 3_Wheel_Back_LOD0
+    400102: 3_Wheel_Back_LOD001
+    400104: 3_Wheel_Front_LOD0
+    400106: 3_Wheel_Front_LOD001
+    400108: 3_Wheel_Middle_LOD0
+    400110: 3_Wheel_Middle_LOD001
+    400112: 3_Wheels_Back_LOD0
+    400114: 3_Wheels_Back_LOD001
+    400116: 3_Wheels_Front_LOD0
+    400118: 3_Wheels_Front_LOD001
+    400120: 3_Wheels_Middle_LOD0
+    400122: 3_Wheels_Middle_LOD001
+    400124: 4_Axis_Back_LOD0
+    400126: 4_Axis_Front_LOD0
+    400128: 4_B_B_L_LOD0
+    400130: 4_B_B_R_LOD0
+    400132: 4_B_F_L_LOD0
+    400134: 4_B_F_R_LOD0
+    400136: 4_Carriage_LOD0
+    400138: 4_F_B_L_LOD0
+    400140: 4_F_B_R_LOD0
+    400142: 4_F_F_L_LOD0
+    400144: 4_F_F_R_LOD0
+    400146: 4_Train_Carriage_Transport_Case_LOD0
+    400148: 4_Wheel_Back_LOD0
+    400150: 4_Wheel_Front_LOD0
+    400152: 4_Wheels_Back_LOD0
+    400154: 4_Wheels_Front_LOD0
+    400156: 5_Axis_Back_LOD0
+    400158: 5_Axis_Front_LOD0
+    400160: 5_B_B_L_LOD0
+    400162: 5_B_B_R_LOD0
+    400164: 5_B_F_L_LOD0
+    400166: 5_B_F_R_LOD0
+    400168: 5_Carriage_LOD0
+    400170: 5_F_B_L_LOD0
+    400172: 5_F_B_R_LOD0
+    400174: 5_F_F_L_LOD0
+    400176: 5_F_F_R_LOD0
+    400178: 5_Train_Carriage_Oil_LOD0
+    400180: 5_Wheel_Back_LOD0
+    400182: 5_Wheel_Front_LOD0
+    400184: 5_Wheels_Back_LOD0
+    400186: 5_Wheels_Front_LOD0
+    400188: 7_Train_Transport_Case_LOD0
+    400190: 8_Train_Transport_Case_Sail_LOD0
+    400192: 8_Train_Transport_Case_Sail_LOD001
+    400194: Point007
+    400196: Point008
+    400198: Point009
+    400200: Point010
+    400202: Point011
+    400204: //RootNode
+    2300000: 1_Axis_Back_LOD0
+    2300002: 1_Axis_Front_LOD0
+    2300004: 1_B_B_L_LOD0
+    2300006: 1_B_B_R_LOD0
+    2300008: 1_B_F_L_LOD0
+    2300010: 1_B_F_R_LOD0
+    2300012: 1_Carriage_LOD0
+    2300014: 1_F_B_L_LOD0
+    2300016: 1_F_B_R_LOD0
+    2300018: 1_F_F_L_LOD0
+    2300020: 1_F_F_R_LOD0
+    2300022: 3_Axis_Back_LOD0
+    2300024: 3_Axis_Back_LOD001
+    2300026: 3_Axis_Front_LOD0
+    2300028: 3_Axis_Front_LOD001
+    2300030: 3_Axis_Middle_LOD0
+    2300032: 3_Axis_Middle_LOD001
+    2300034: 3_B_B_L_LOD0
+    2300036: 3_B_B_L_LOD001
+    2300038: 3_B_B_R_LOD0
+    2300040: 3_B_B_R_LOD001
+    2300042: 3_B_F_L_LOD0
+    2300044: 3_B_F_L_LOD001
+    2300046: 3_B_F_R_LOD0
+    2300048: 3_B_F_R_LOD001
+    2300050: 3_Carriage_LOD0
+    2300052: 3_Carriage_LOD001
+    2300054: 3_F_B_L_LOD0
+    2300056: 3_F_B_L_LOD001
+    2300058: 3_F_B_R_LOD0
+    2300060: 3_F_B_R_LOD001
+    2300062: 3_F_F_L_LOD0
+    2300064: 3_F_F_L_LOD001
+    2300066: 3_F_F_R_LOD0
+    2300068: 3_F_F_R_LOD001
+    2300070: 3_M_B_L_LOD0
+    2300072: 3_M_B_L_LOD001
+    2300074: 3_M_B_R_LOD0
+    2300076: 3_M_B_R_LOD001
+    2300078: 3_M_F_L_LOD0
+    2300080: 3_M_F_L_LOD001
+    2300082: 3_M_F_R_LOD0
+    2300084: 3_M_F_R_LOD001
+    2300086: 4_Axis_Back_LOD0
+    2300088: 4_Axis_Front_LOD0
+    2300090: 4_B_B_L_LOD0
+    2300092: 4_B_B_R_LOD0
+    2300094: 4_B_F_L_LOD0
+    2300096: 4_B_F_R_LOD0
+    2300098: 4_Carriage_LOD0
+    2300100: 4_F_B_L_LOD0
+    2300102: 4_F_B_R_LOD0
+    2300104: 4_F_F_L_LOD0
+    2300106: 4_F_F_R_LOD0
+    2300108: 5_Axis_Back_LOD0
+    2300110: 5_Axis_Front_LOD0
+    2300112: 5_B_B_L_LOD0
+    2300114: 5_B_B_R_LOD0
+    2300116: 5_B_F_L_LOD0
+    2300118: 5_B_F_R_LOD0
+    2300120: 5_Carriage_LOD0
+    2300122: 5_F_B_L_LOD0
+    2300124: 5_F_B_R_LOD0
+    2300126: 5_F_F_L_LOD0
+    2300128: 5_F_F_R_LOD0
+    2300130: 7_Train_Transport_Case_LOD0
+    2300132: 8_Train_Transport_Case_Sail_LOD0
+    2300134: 8_Train_Transport_Case_Sail_LOD001
+    3300000: 1_Axis_Back_LOD0
+    3300002: 1_Axis_Front_LOD0
+    3300004: 1_B_B_L_LOD0
+    3300006: 1_B_B_R_LOD0
+    3300008: 1_B_F_L_LOD0
+    3300010: 1_B_F_R_LOD0
+    3300012: 1_Carriage_LOD0
+    3300014: 1_F_B_L_LOD0
+    3300016: 1_F_B_R_LOD0
+    3300018: 1_F_F_L_LOD0
+    3300020: 1_F_F_R_LOD0
+    3300022: 3_Axis_Back_LOD0
+    3300024: 3_Axis_Back_LOD001
+    3300026: 3_Axis_Front_LOD0
+    3300028: 3_Axis_Front_LOD001
+    3300030: 3_Axis_Middle_LOD0
+    3300032: 3_Axis_Middle_LOD001
+    3300034: 3_B_B_L_LOD0
+    3300036: 3_B_B_L_LOD001
+    3300038: 3_B_B_R_LOD0
+    3300040: 3_B_B_R_LOD001
+    3300042: 3_B_F_L_LOD0
+    3300044: 3_B_F_L_LOD001
+    3300046: 3_B_F_R_LOD0
+    3300048: 3_B_F_R_LOD001
+    3300050: 3_Carriage_LOD0
+    3300052: 3_Carriage_LOD001
+    3300054: 3_F_B_L_LOD0
+    3300056: 3_F_B_L_LOD001
+    3300058: 3_F_B_R_LOD0
+    3300060: 3_F_B_R_LOD001
+    3300062: 3_F_F_L_LOD0
+    3300064: 3_F_F_L_LOD001
+    3300066: 3_F_F_R_LOD0
+    3300068: 3_F_F_R_LOD001
+    3300070: 3_M_B_L_LOD0
+    3300072: 3_M_B_L_LOD001
+    3300074: 3_M_B_R_LOD0
+    3300076: 3_M_B_R_LOD001
+    3300078: 3_M_F_L_LOD0
+    3300080: 3_M_F_L_LOD001
+    3300082: 3_M_F_R_LOD0
+    3300084: 3_M_F_R_LOD001
+    3300086: 4_Axis_Back_LOD0
+    3300088: 4_Axis_Front_LOD0
+    3300090: 4_B_B_L_LOD0
+    3300092: 4_B_B_R_LOD0
+    3300094: 4_B_F_L_LOD0
+    3300096: 4_B_F_R_LOD0
+    3300098: 4_Carriage_LOD0
+    3300100: 4_F_B_L_LOD0
+    3300102: 4_F_B_R_LOD0
+    3300104: 4_F_F_L_LOD0
+    3300106: 4_F_F_R_LOD0
+    3300108: 5_Axis_Back_LOD0
+    3300110: 5_Axis_Front_LOD0
+    3300112: 5_B_B_L_LOD0
+    3300114: 5_B_B_R_LOD0
+    3300116: 5_B_F_L_LOD0
+    3300118: 5_B_F_R_LOD0
+    3300120: 5_Carriage_LOD0
+    3300122: 5_F_B_L_LOD0
+    3300124: 5_F_B_R_LOD0
+    3300126: 5_F_F_L_LOD0
+    3300128: 5_F_F_R_LOD0
+    3300130: 7_Train_Transport_Case_LOD0
+    3300132: 8_Train_Transport_Case_Sail_LOD0
+    3300134: 8_Train_Transport_Case_Sail_LOD001
+    4300000: 1_Carriage_LOD0
+    4300002: 1_Axis_Back_LOD0
+    4300004: 1_B_F_L_LOD0
+    4300006: 1_B_B_R_LOD0
+    4300008: 1_B_F_R_LOD0
+    4300010: 1_B_B_L_LOD0
+    4300012: 1_Axis_Front_LOD0
+    4300014: 1_F_B_L_LOD0
+    4300016: 1_F_F_R_LOD0
+    4300018: 1_F_B_R_LOD0
+    4300020: 1_F_F_L_LOD0
+    4300022: 3_Carriage_LOD0
+    4300024: 8_Train_Transport_Case_Sail_LOD0
+    4300026: 3_Axis_Back_LOD0
+    4300028: 3_B_F_R_LOD0
+    4300030: 3_B_B_L_LOD0
+    4300032: 3_B_F_L_LOD0
+    4300034: 3_B_B_R_LOD0
+    4300036: 3_Axis_Middle_LOD0
+    4300038: 3_M_F_R_LOD0
+    4300040: 3_M_B_L_LOD0
+    4300042: 3_M_F_L_LOD0
+    4300044: 3_M_B_R_LOD0
+    4300046: 3_Axis_Front_LOD0
+    4300048: 3_F_B_L_LOD0
+    4300050: 3_F_F_R_LOD0
+    4300052: 3_F_B_R_LOD0
+    4300054: 3_F_F_L_LOD0
+    4300056: 3_Carriage_LOD001
+    4300058: 8_Train_Transport_Case_Sail_LOD001
+    4300060: 3_Axis_Back_LOD001
+    4300062: 3_B_F_R_LOD001
+    4300064: 3_B_B_L_LOD001
+    4300066: 3_B_F_L_LOD001
+    4300068: 3_B_B_R_LOD001
+    4300070: 3_Axis_Middle_LOD001
+    4300072: 3_M_F_R_LOD001
+    4300074: 3_M_B_L_LOD001
+    4300076: 3_M_F_L_LOD001
+    4300078: 3_M_B_R_LOD001
+    4300080: 3_Axis_Front_LOD001
+    4300082: 3_F_B_L_LOD001
+    4300084: 3_F_F_R_LOD001
+    4300086: 3_F_B_R_LOD001
+    4300088: 3_F_F_L_LOD001
+    4300090: 5_Axis_Back_LOD0
+    4300092: 5_B_B_R_LOD0
+    4300094: 5_B_F_L_LOD0
+    4300096: 5_B_B_L_LOD0
+    4300098: 5_B_F_R_LOD0
+    4300100: 5_Carriage_LOD0
+    4300102: 5_Axis_Front_LOD0
+    4300104: 5_F_B_L_LOD0
+    4300106: 5_F_F_R_LOD0
+    4300108: 5_F_B_R_LOD0
+    4300110: 5_F_F_L_LOD0
+    4300112: 4_Axis_Front_LOD0
+    4300114: 4_F_F_L_LOD0
+    4300116: 4_F_B_R_LOD0
+    4300118: 4_F_F_R_LOD0
+    4300120: 4_F_B_L_LOD0
+    4300122: 4_Axis_Back_LOD0
+    4300124: 4_B_F_R_LOD0
+    4300126: 4_B_B_L_LOD0
+    4300128: 4_B_F_L_LOD0
+    4300130: 4_B_B_R_LOD0
+    4300132: 4_Carriage_LOD0
+    4300134: 7_Train_Transport_Case_LOD0
+    7400000: Take 001
+    9500000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Point007
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Carriage_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0/1_Axis_Back_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0/1_Wheels_Back_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0/1_Wheels_Back_LOD0/1_B_B_L_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0/1_Wheels_Back_LOD0/1_B_B_R_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0/1_Wheels_Back_LOD0/1_B_F_L_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Back_LOD0/1_Wheels_Back_LOD0/1_B_F_R_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0/1_Axis_Front_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0/1_Wheels_Front_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0/1_Wheels_Front_LOD0/1_F_B_L_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0/1_Wheels_Front_LOD0/1_F_B_R_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0/1_Wheels_Front_LOD0/1_F_F_L_LOD0
+        weight: 1
+      - path: Point007/1_Train_Transport_Dubbel_LOD0/1_Wheel_Front_LOD0/1_Wheels_Front_LOD0/1_F_F_R_LOD0
+        weight: 1
+      - path: Point008
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Carriage_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Carriage_LOD0/8_Train_Transport_Case_Sail_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0/3_Axis_Back_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0/3_Wheels_Back_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0/3_Wheels_Back_LOD0/3_B_B_L_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0/3_Wheels_Back_LOD0/3_B_B_R_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0/3_Wheels_Back_LOD0/3_B_F_L_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Back_LOD0/3_Wheels_Back_LOD0/3_B_F_R_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0/3_Axis_Front_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0/3_Wheels_Front_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0/3_Wheels_Front_LOD0/3_F_B_L_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0/3_Wheels_Front_LOD0/3_F_B_R_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0/3_Wheels_Front_LOD0/3_F_F_L_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Front_LOD0/3_Wheels_Front_LOD0/3_F_F_R_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0/3_Axis_Middle_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0/3_Wheels_Middle_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0/3_Wheels_Middle_LOD0/3_M_B_L_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0/3_Wheels_Middle_LOD0/3_M_B_R_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0/3_Wheels_Middle_LOD0/3_M_F_L_LOD0
+        weight: 1
+      - path: Point008/3_Train_Carriage_Transport_Container_LOD0/3_Wheel_Middle_LOD0/3_Wheels_Middle_LOD0/3_M_F_R_LOD0
+        weight: 1
+      - path: Point009
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Carriage_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Carriage_LOD001/8_Train_Transport_Case_Sail_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001/3_Axis_Back_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001/3_Wheels_Back_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001/3_Wheels_Back_LOD001/3_B_B_L_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001/3_Wheels_Back_LOD001/3_B_B_R_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001/3_Wheels_Back_LOD001/3_B_F_L_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Back_LOD001/3_Wheels_Back_LOD001/3_B_F_R_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001/3_Axis_Front_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001/3_Wheels_Front_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001/3_Wheels_Front_LOD001/3_F_B_L_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001/3_Wheels_Front_LOD001/3_F_B_R_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001/3_Wheels_Front_LOD001/3_F_F_L_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Front_LOD001/3_Wheels_Front_LOD001/3_F_F_R_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001/3_Axis_Middle_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001/3_Wheels_Middle_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001/3_Wheels_Middle_LOD001/3_M_B_L_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001/3_Wheels_Middle_LOD001/3_M_B_R_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001/3_Wheels_Middle_LOD001/3_M_F_L_LOD001
+        weight: 1
+      - path: Point009/3_Train_Carriage_Transport_Container_LOD001/3_Wheel_Middle_LOD001/3_Wheels_Middle_LOD001/3_M_F_R_LOD001
+        weight: 1
+      - path: Point010
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Carriage_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0/5_Axis_Back_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0/5_Wheels_Back_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0/5_Wheels_Back_LOD0/5_B_B_L_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0/5_Wheels_Back_LOD0/5_B_B_R_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0/5_Wheels_Back_LOD0/5_B_F_L_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Back_LOD0/5_Wheels_Back_LOD0/5_B_F_R_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0/5_Axis_Front_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0/5_Wheels_Front_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0/5_Wheels_Front_LOD0/5_F_B_L_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0/5_Wheels_Front_LOD0/5_F_B_R_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0/5_Wheels_Front_LOD0/5_F_F_L_LOD0
+        weight: 1
+      - path: Point010/5_Train_Carriage_Oil_LOD0/5_Wheel_Front_LOD0/5_Wheels_Front_LOD0/5_F_F_R_LOD0
+        weight: 1
+      - path: Point011
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Carriage_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Carriage_LOD0/7_Train_Transport_Case_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0/4_Axis_Back_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0/4_Wheels_Back_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0/4_Wheels_Back_LOD0/4_B_B_L_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0/4_Wheels_Back_LOD0/4_B_B_R_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0/4_Wheels_Back_LOD0/4_B_F_L_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Back_LOD0/4_Wheels_Back_LOD0/4_B_F_R_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0/4_Axis_Front_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0/4_Wheels_Front_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0/4_Wheels_Front_LOD0/4_F_B_L_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0/4_Wheels_Front_LOD0/4_F_B_R_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0/4_Wheels_Front_LOD0/4_F_F_L_LOD0
+        weight: 1
+      - path: Point011/4_Train_Carriage_Transport_Case_LOD0/4_Wheel_Front_LOD0/4_Wheels_Front_LOD0/4_F_F_R_LOD0
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

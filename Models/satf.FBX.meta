@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: d9ef7a85c2eac814c8cb5d3b2acb82c6
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_011
+    100002: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_014
+    100004: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_04
+    100006: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_05
+    100008: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_06
+    100010: RT_Port_St01_Zone_4x4_Docks_H_01_WH_Barn_B_01_WareHouseAB_03
+    100012: //RootNode
+    400000: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_011
+    400002: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_014
+    400004: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_04
+    400006: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_05
+    400008: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_06
+    400010: RT_Port_St01_Zone_4x4_Docks_H_01_WH_Barn_B_01_WareHouseAB_03
+    400012: //RootNode
+    2300000: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_011
+    2300002: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_014
+    2300004: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_04
+    2300006: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_05
+    2300008: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_06
+    2300010: RT_Port_St01_Zone_4x4_Docks_H_01_WH_Barn_B_01_WareHouseAB_03
+    3300000: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_011
+    3300002: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_014
+    3300004: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_04
+    3300006: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_05
+    3300008: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_06
+    3300010: RT_Port_St01_Zone_4x4_Docks_H_01_WH_Barn_B_01_WareHouseAB_03
+    4300000: RT_Port_St01_Zone_4x4_Docks_H_01_WH_Barn_B_01_WareHouseAB_03
+    4300002: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_011
+    4300004: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_04
+    4300006: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_05
+    4300008: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Tri_06
+    4300010: RT_Port_St01_Zone_4x4_Docks_H_01_RT_Industrial_01_Tank_Large_A_014
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 
