@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: 62d21a6eee86a2c4dbb5912101e05dd0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: canCement_round_B
+    100002: canRim
+    100004: canShell
+    100006: Cylinder01
+    100008: //RootNode
+    400000: canCement_round_B
+    400002: canRim
+    400004: canShell
+    400006: Cylinder01
+    400008: //RootNode
+    2300000: canCement_round_B
+    2300002: canRim
+    2300004: canShell
+    2300006: Cylinder01
+    3300000: canCement_round_B
+    3300002: canRim
+    3300004: canShell
+    3300006: Cylinder01
+    4300000: canRim
+    4300002: canShell
+    4300004: canCement_round_B
+    4300006: Cylinder01
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.39999998
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 

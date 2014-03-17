@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 8192cf36b170d924880bca083aaa674b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: curba150
+    100002: curbb150
+    100004: materialA150
+    100006: materialB150
+    100008: materialC150
+    100010: materialD0
+    100012: materialE0
+    100014: materialF0
+    100016: materialG0
+    100018: materialH0
+    100020: materialI0
+    100022: materialJ150
+    100024: sidewalks150
+    100026: //RootNode
+    100028: top150
+    100030: walls150
+    400000: curba150
+    400002: curbb150
+    400004: materialA150
+    400006: materialB150
+    400008: materialC150
+    400010: materialD0
+    400012: materialE0
+    400014: materialF0
+    400016: materialG0
+    400018: materialH0
+    400020: materialI0
+    400022: materialJ150
+    400024: sidewalks150
+    400026: //RootNode
+    400028: top150
+    400030: walls150
+    2300000: curba150
+    2300002: curbb150
+    2300004: materialA150
+    2300006: materialB150
+    2300008: materialC150
+    2300010: materialD0
+    2300012: materialE0
+    2300014: materialF0
+    2300016: materialG0
+    2300018: materialH0
+    2300020: materialI0
+    2300022: materialJ150
+    2300024: sidewalks150
+    2300026: top150
+    2300028: walls150
+    3300000: curba150
+    3300002: curbb150
+    3300004: materialA150
+    3300006: materialB150
+    3300008: materialC150
+    3300010: materialD0
+    3300012: materialE0
+    3300014: materialF0
+    3300016: materialG0
+    3300018: materialH0
+    3300020: materialI0
+    3300022: materialJ150
+    3300024: sidewalks150
+    3300026: top150
+    3300028: walls150
+    4300000: materialA150
+    4300002: materialB150
+    4300004: materialC150
+    4300006: top150
+    4300008: materialJ150
+    4300010: sidewalks150
+    4300012: curba150
+    4300014: curbb150
+    4300016: walls150
+    4300018: materialD0
+    4300020: materialE0
+    4300022: materialF0
+    4300024: materialG0
+    4300026: materialH0
+    4300028: materialI0
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 
