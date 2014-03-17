@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb70eda17bc6a4e769965c4c13d8ec5a
+labels:
+- Animation
+- Animator
+- Cam
+- Camera
+- Cutscene
+- Fly
+- Flyby
+- Flyover
+- Path
+- Spline
+TextScriptImporter:
+  userData: 
