@@ -1,0 +1,74 @@
+fileFormatVersion: 2
+guid: af53896e93e10477ea20337ffec5ed5f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100002: //RootNode
+    100020: MiniEngines
+    100022: bayBack
+    400002: //RootNode
+    400020: MiniEngines
+    400022: bayBack
+    2300012: MiniEngines
+    2300014: bayBack
+    3300012: MiniEngines
+    3300014: bayBack
+    4300000: bayBack
+    4300002: MiniEngines
+    4300004: Nozzle OUT
+    4300006: Nozzle IN
+    4300008: Nozzle OUT.2
+    4300010: Nozzle IN.2
+    4300012: Nozzle OUT.3
+    4300014: Nozzle IN.3
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .200000003
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 
