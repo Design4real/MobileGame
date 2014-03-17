@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<LightmappedScene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LightmappedObjects>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>68936</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>-1</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>69866</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>-1</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>71708</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>1</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>76752</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>-1</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>77118</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>-1</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>77322</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>-0.00379120652</offsetx>
+          <offsety>-0.00676356256</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>2</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>77576</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>-1</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>78504</int>
+      </Key>
+      <value type="LightmappedObject, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <LightmappedObject>
+          <offsetx>0</offsetx>
+          <offsety>0</offsety>
+          <tilex>1</tilex>
+          <tiley>1</tiley>
+          <mapindex>0</mapindex>
+        </LightmappedObject>
+      </value>
+    </Item>
+  </LightmappedObjects>
+  <Lightmaps>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>0</int>
+      </Key>
+      <value type="Lightmap, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Lightmap>
+          <far>LightmapFar-0.exr</far>
+          <near>LightmapNear-0.exr</near>
+        </Lightmap>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>1</int>
+      </Key>
+      <value type="Lightmap, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Lightmap>
+          <far>LightmapFar-1.exr</far>
+          <near>LightmapNear-1.exr</near>
+        </Lightmap>
+      </value>
+    </Item>
+    <Item>
+      <Key type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <int>2</int>
+      </Key>
+      <value type="Lightmap, LightmapManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Lightmap>
+          <far>LightmapFar-2.exr</far>
+          <near>LightmapNear-2.exr</near>
+        </Lightmap>
+      </value>
+    </Item>
+  </Lightmaps>
+</LightmappedScene>
