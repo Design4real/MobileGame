@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - Cargo
+  - Occluder Static
+  - Occludee Static
+  - shadow
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: 
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: WheelPair
+  User Layer 9: ParkingTransport_touch
+  User Layer 10: ParkingTransport_wall
+  User Layer 11: Location
+  User Layer 12: MiniGame_targets
+  User Layer 13: HitParticles
+  User Layer 14: WaterReflection
+  User Layer 15: GameOverCollider
+  User Layer 16: Interface
+  User Layer 17: city_buildings
+  User Layer 18: sidewalk
+  User Layer 19: swf
+  User Layer 20: shadow
+  User Layer 21: 
+  User Layer 22: 
+  User Layer 23: 
+  User Layer 24: 
+  User Layer 25: 
+  User Layer 26: 
+  User Layer 27: 
+  User Layer 28: 
+  User Layer 29: 
+  User Layer 30: 
+  User Layer 31: 
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0
