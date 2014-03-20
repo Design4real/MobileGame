@@ -426,7 +426,7 @@ public class SSSInput
 																{InputType.Steering_DiagonalAlong,	"Xbox Diagonal steering along"},
 																{InputType.Steering_DiagonalCross,	"Xbox Diagonal steering cross"}
 															};
-	
+
 	private Dictionary<InputType, string> input_custom = new Dictionary<InputType, string>()
 															{
 																//{InputType.Start,					"Custom Start"},
@@ -532,15 +532,14 @@ public class SSSInput
 		}*/
 		return (source != InputSourceType.None);
 	}
-	
 	public bool GetButtonDown(InputType type)
 	{
 		if (!checkSelectedInput())
 		{
 			return false;
 		}
-		
-		return Input.GetButtonDown(selectedInput[type]);
+
+		return CFInput.GetButtonDown(selectedInput[type]);
 	}
 	
 	public float GetAxis(InputType type)
@@ -559,8 +558,8 @@ public class SSSInput
 		{
 			return 0;
 		}
-		
-		return Input.GetAxisRaw(selectedInput[type]);
+		if ( (CFInput.GetAxisRaw (selectedInput [type])) != 0 ) {Debug.Log (CFInput.GetAxisRaw (selectedInput [type]));}
+		return CFInput.GetAxisRaw(selectedInput[type]);
 	}
 }
 

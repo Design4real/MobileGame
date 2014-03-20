@@ -51,6 +51,7 @@ public class winLevelSelect : BaseWindow
 		movie.loop = true;
 		movie.Stop();
 		movie.Play();*/
+		Debug.Log("btnName");
 		cursorScale = MenuController.runtime.cursor.localScale;
 		InterfaceController.openPopUp( MenuController.runtime.win_Info );
 		isTutorialPlaying = true;
@@ -78,8 +79,8 @@ public class winLevelSelect : BaseWindow
 		}
 		if( !isTutorialPlaying && !isDescriptionShow )
 		{
-			float menuCancel = Common.input.GetAxis(SSSInput.InputType.Cancel);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
 				InterfaceController.OpenWindow( MenuController.runtime.win_MainMenu );
 			}
@@ -87,8 +88,9 @@ public class winLevelSelect : BaseWindow
 		}
 		else if( isDescriptionShow )
 		{
-			float menuCancel = Common.input.GetAxis(SSSInput.InputType.Cancel);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
+
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
 				isDescriptionShow = false;
 				allStuff.ForEach(a => a.SetActive(true));

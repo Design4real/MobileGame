@@ -182,8 +182,8 @@ public class GameController : MonoBehaviour
 	{
 		if( curState == GameState.cutScene1 || curState == GameState.miniGame2 )
 		{
-			float menuCancel = Common.input.GetAxis(SSSInput.InputType.Ok);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel || Input.anyKey )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Ok);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel || Input.anyKey )
 			{
 				skipCutScene();
 			}

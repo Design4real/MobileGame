@@ -62,8 +62,8 @@ public class winSure : BaseWindow
 
 	void FixedUpdate()
 	{
-		float menuOk = Common.input.GetAxisRaw(SSSInput.InputType.Ok);
-		if( menuOk != 0 && menuOk != MenuController.prevMenuOk )
+		bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
+		if( menuOk && menuOk != MenuController.prevMenuOk )
 		{
 			Debug.Log(buttons[curButton].name);
 			buttons[curButton].OnClick();

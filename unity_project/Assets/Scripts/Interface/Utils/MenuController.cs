@@ -50,8 +50,8 @@ public class MenuController : MonoBehaviour
 	private Transform curHit;
 	private bool wasBtnPressed = false;
 	private float prevMenuSwich = 0;
-	public static float prevMenuOk = 0;
-	public static float prevMenuCancel = 0;
+	public static bool prevMenuOk = false;
+	public static bool prevMenuCancel = false;
 	
 	public static bool isCustomInputInUse
 	{
@@ -204,7 +204,7 @@ public class MenuController : MonoBehaviour
 				}
 			}
 			menuSwich = menuSwich == 0 ? 0 : Mathf.Sign(menuSwich);
-			
+
 			if( menuSwich != 0 && menuSwich != prevMenuSwich && win_cur != null )
 			{
 				win_cur.GetComponent< BaseWindow >().curButton += (int)menuSwich;
@@ -215,7 +215,7 @@ public class MenuController : MonoBehaviour
 					cursor.localPosition = getCursorPos(btn);
 					
 					win_cur.GetComponent< BaseWindow >().buttons[ win_cur.GetComponent< BaseWindow >().curButton ].OnPressJoystick( true );
-					if( (int)menuSwich != 0 )
+					if(menuSwich != 0)
 					{
 						win_cur.GetComponent< BaseWindow >().buttons[ win_cur.GetComponent< BaseWindow >().curButton - (int)menuSwich ].OnPressJoystick( false );
 					}
@@ -242,14 +242,14 @@ public class MenuController : MonoBehaviour
 				else if( !winLevelSelect.isTutorialPlaying && !winLevelSelect.isDescriptionShow && !winLevelSelect.isTutorialPlaying &&
 				        InterfaceController.curWindow != win_Sure && InterfaceController.curWindow != win_MainMenu)
 				{
-					float menuOk = Common.input.GetAxisRaw(SSSInput.InputType.Ok);
+					bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
 					if (Common.input.selectedInputSourceType == SSSInput.InputSourceType.Xbox && Input.anyKey &&
 						Common.input.GetAxisRaw(SSSInput.InputType.Vertical) == 0 && Common.input.GetAxisRaw(SSSInput.InputType.Horizontal) == 0 &&
 						InterfaceController.curWindow == win_Win)
 					{
-						menuOk = 1;
+						menuOk = true;
 					}
-					if( menuOk != 0 && menuOk != prevMenuOk && win_cur.GetComponent< BaseWindow >().buttons.Count > 0 )
+					if( menuOk && menuOk != prevMenuOk && win_cur.GetComponent< BaseWindow >().buttons.Count > 0 )
 					{
 						win_cur.GetComponent< BaseWindow >().buttons[ win_cur.GetComponent< BaseWindow >().curButton ].OnClick();
 						Input.ResetInputAxes();

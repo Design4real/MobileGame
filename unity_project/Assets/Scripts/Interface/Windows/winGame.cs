@@ -17,7 +17,7 @@ public class winGame : BaseWindow
 	public GameObject special_xbox;
 	
 	bool minigameOpened = false;
-	float prevTutorial;
+	bool prevTutorial;
 	
 	public static Transport transport
 	{
@@ -84,8 +84,9 @@ public class winGame : BaseWindow
 			GameController.runtime.curState != GameController.GameState.miniGame2 && 
 			GameController.runtime.curState != GameController.GameState.miniGame1 )
 		{
-			float tutorial = Common.input.GetAxisRaw(SSSInput.InputType.Tutorial);
-			if( tutorial != 0 && tutorial != prevTutorial )
+
+			bool tutorial = Common.input.GetButtonDown(SSSInput.InputType.Tutorial);
+			if( tutorial && tutorial != prevTutorial )
 			{
 				MenuController.isInMenu = true;
 				GameController.runtime.isPaused = true;
@@ -93,8 +94,8 @@ public class winGame : BaseWindow
 			}
 			prevTutorial = tutorial;
 			
-			float menuCancel = Common.input.GetAxisRaw(SSSInput.InputType.Cancel);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
 				MenuController.isInMenu = true;
 				winSure.isFromLevel = true;
@@ -105,15 +106,15 @@ public class winGame : BaseWindow
 		}
 		if( GameController.runtime.curState == GameController.GameState.miniGame1 )
 		{
-			float menuOk = Common.input.GetAxisRaw(SSSInput.InputType.Ok);
-			if( menuOk != 0 && menuOk != MenuController.prevMenuOk )
+			bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
+			if( menuOk  && menuOk != MenuController.prevMenuOk )
 			{
 				GameController.runtime.skipMiniGame1();
 			}
 			MenuController.prevMenuOk = menuOk;
 			
-			float menuCancel = Common.input.GetAxisRaw(SSSInput.InputType.Cancel);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
 				MenuController.isInMenu = true;
 				winSure.isFromLevel = true;
@@ -125,15 +126,15 @@ public class winGame : BaseWindow
 		}
 		if( GameController.runtime.curState == GameController.GameState.miniGame2 )
 		{
-			float menuOk = Common.input.GetAxisRaw(SSSInput.InputType.Ok);
-			if( menuOk != 0 && menuOk != MenuController.prevMenuOk )
+			bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
+			if( menuOk && menuOk != MenuController.prevMenuOk )
 			{
 				GameController.runtime.curState = GameController.GameState.win;
 			}
 			MenuController.prevMenuOk = menuOk;
 			
-			float menuCancel = Common.input.GetAxisRaw(SSSInput.InputType.Cancel);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
 				MenuController.isInMenu = true;
 				winSure.isFromLevel = true;

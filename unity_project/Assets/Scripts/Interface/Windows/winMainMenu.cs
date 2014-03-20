@@ -32,16 +32,16 @@ public class winMainMenu : BaseWindow
 		
 		if (InterfaceController.curWindow != MenuController.runtime.win_Sure)
 		{
-			float menuCancel = Common.input.GetAxisRaw(SSSInput.InputType.Cancel);
-			if( menuCancel != 0 && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
 				winSure.isFromLevel = false;
 				InterfaceController.openPopUp( MenuController.runtime.win_Sure );
 			}
 			MenuController.prevMenuCancel = menuCancel;
 			
-			float menuOk = Common.input.GetAxisRaw(SSSInput.InputType.Ok);
-			if( menuOk != 0 && menuOk != MenuController.prevMenuOk )
+			bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
+			if( menuOk && menuOk != MenuController.prevMenuOk )
 			{
 				Debug.Log(buttons[curButton].name);
 				buttons[curButton].OnClick();

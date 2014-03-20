@@ -67,7 +67,7 @@ public class Transport : MonoBehaviour
 	public Cameras cams;
 	[HideInInspector]
 	public CamerasPoints camsPoints;
-	float prevNextMode;
+	bool prevNextMode;
 	
 	Dictionary<WheelPair, float> circleModeAngles;
 
@@ -379,6 +379,7 @@ public class Transport : MonoBehaviour
 		}
 		if (Common.input.GetButtonDown(SSSInput.InputType.Steering_Circle))
 		{
+			Debug.Log(SSSInput.InputType.Steering_Circle);
 			newModeInd = movementModes.FindIndex( a => a is SteerMode.Circle );
 		}
 		if (Common.input.GetButtonDown(SSSInput.InputType.Steering_DiagonalAlong))
@@ -583,22 +584,21 @@ public class Transport : MonoBehaviour
 	
 	void FixedUpdate()
 	{
-		float nextMode = Common.input.GetAxisRaw(SSSInput.InputType.NextMode);
-		if ( nextMode != 0 && nextMode != prevNextMode )
+		bool nextMode = Common.input.GetButtonDown(SSSInput.InputType.NextMode);
+		if ( nextMode && nextMode != prevNextMode )
 		{
 			//curModeInd = 0;
 			curModeInd++;
 			changeMode( curMode );
 		}
 		prevNextMode = nextMode;
-		
-		if (Common.input.GetAxisRaw(SSSInput.InputType.NextCamera) != 0 && !wasNextCameraPressed)
+		if ( Common.input.GetButtonDown(SSSInput.InputType.NextCamera) && !wasNextCameraPressed)
 		{
 			cams.curCameraInd++;
 			changeCam(false);
 			wasNextCameraPressed = true;
 		}
-		if (Common.input.GetAxisRaw(SSSInput.InputType.NextCamera) == 0 && wasNextCameraPressed )
+		if (Common.input.GetButtonDown(SSSInput.InputType.NextCamera) && wasNextCameraPressed )
 		{
 			wasNextCameraPressed = false;
 		}

@@ -1,0 +1,47 @@
+fileFormatVersion: 2
+guid: c5a5978b3acc10449933db192c711055
+labels:
+- Android
+- iOS
+- iPhone
+- iPad
+- Touch
+- Mobile
+- Controller
+- Joystick
+- MultiTouch
+- Multi-touch
+- VirtualController
+- ControlFreak
+- Gesture
+- Gestures
+- Drag
+- Pinch
+- Stick
+- Finger
+- Fingers
+- TouchScreen
+- Screen
+- Button
+- Buttons
+- FPP
+- Platformer
+- Shooter
+- Control
+- Freak
+- WindowsPhone8
+- Phone
+- Tablet
+- cross-platform
+- crossplatform
+- Twist
+AudioImporter:
+  serializedVersion: 4
+  format: 0
+  quality: -1
+  stream: 1
+  3D: 1
+  forceToMono: 0
+  useHardware: 0
+  loopable: 0
+  userData: 
