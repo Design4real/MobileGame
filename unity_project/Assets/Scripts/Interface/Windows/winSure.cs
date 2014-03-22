@@ -52,20 +52,35 @@ public class winSure : BaseWindow
 	{
 		if( isFromLevel )
 		{
+			GameController.runtime.screen_cancel.gameObject.SetActive (false);
+			if (GameController.runtime.curState == GameController.GameState.mainGame) 
+				{
+				GameController.runtime.screen_maingame.gameObject.SetActive (true);
+				CFInput.ctrl = GameController.runtime.screen_maingame.GetComponent<TouchController>();
+			}
+			else {
+				if (GameController.runtime.curState == GameController.GameState.miniGame1)
+				{
+					GameController.runtime.screen_minigame.gameObject.SetActive (true);
+					CFInput.ctrl = GameController.runtime.screen_minigame.GetComponent<TouchController>();
+				}
+				else {
+					GameController.runtime.screen_minigame2.gameObject.SetActive (true);
+					CFInput.ctrl = GameController.runtime.screen_minigame2.GetComponent<TouchController>();
+				}
+			}
 			MenuController.isInMenu = false;
 			GameController.runtime.isPaused = false;
 		}
 		InterfaceController.ClosePopUP();
 	}
 
-
-
+	
 	void FixedUpdate()
 	{
 		bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
 		if( menuOk && menuOk != MenuController.prevMenuOk )
 		{
-			Debug.Log(buttons[curButton].name);
 			buttons[curButton].OnClick();
 			Input.ResetInputAxes();
 		}

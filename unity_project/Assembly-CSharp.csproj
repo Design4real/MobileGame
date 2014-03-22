@@ -246,6 +246,7 @@
      <Compile Include="Assets\Scripts\LevelTransport.cs" />
      <Compile Include="Assets\Scripts\ParkingTransport.cs" />
      <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\Screen_Cutscene_to_mingame.cs" />
      <Compile Include="Assets\Scripts\Transport.cs" />
      <Compile Include="Assets\Scripts\WallCollider.cs" />
      <Compile Include="Assets\Scripts\WheelPair.cs" />

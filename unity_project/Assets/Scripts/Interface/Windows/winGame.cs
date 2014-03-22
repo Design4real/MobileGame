@@ -12,7 +12,7 @@ public class winGame : BaseWindow
 	public GameObject minigameTutorial1;
 	public GameObject minigameTutorial2;
 	public GameObject pause;
-	
+
 	public GameObject special_custom;
 	public GameObject special_xbox;
 	
@@ -34,7 +34,9 @@ public class winGame : BaseWindow
 	{
 		runtime = this;
 		minigameOpened = false;
-		
+
+		GameController.runtime.screen_cutscene.gameObject.SetActive (true);
+		CFInput.ctrl = GameController.runtime.screen_cutscene.GetComponent<TouchController>();
 		special_custom.gameObject.SetActive(MenuController.isCustomInputInUse);
 		special_xbox.gameObject.SetActive(!MenuController.isCustomInputInUse);
 	}
@@ -47,14 +49,11 @@ public class winGame : BaseWindow
 		ChangeTime();
 		ModeButtonsChange();
 	}
-	
-	// Update is called once per frame
+
 	protected override void Update ()
 	{
 		base.Update();
 		GameController.runtime.anotherTransportParked ();
-
-		//Debug.Log (transport+"______________________________");
 		if( !MenuController.runtime.isPaused )
 		{
 			ChangeTime();
@@ -67,7 +66,6 @@ public class winGame : BaseWindow
 		
 		if( ( GameController.runtime.curState == GameController.GameState.miniGame1 || GameController.runtime.curState == GameController.GameState.miniGame2 ) && !minigameOpened )
 		{
-			Debug.Log( "MINIGAME" );
 			OpenMinigame();
 		}
 		
@@ -93,10 +91,12 @@ public class winGame : BaseWindow
 				InterfaceController.openPopUp( MenuController.runtime.win_Info );
 			}
 			prevTutorial = tutorial;
-			
-			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
-			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
+			bool menuCancel = Common.input.GetButtonUp(SSSInput.InputType.Cancel);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel)
 			{
+				GameController.runtime.screen_maingame.gameObject.SetActive (false);
+				GameController.runtime.screen_cancel.gameObject.SetActive (true);
+				CFInput.ctrl = GameController.runtime.screen_cancel.GetComponent<TouchController>();
 				MenuController.isInMenu = true;
 				winSure.isFromLevel = true;
 				GameController.runtime.isPaused = true;
@@ -104,9 +104,9 @@ public class winGame : BaseWindow
 			}
 			MenuController.prevMenuCancel = menuCancel;
 		}
-		if( GameController.runtime.curState == GameController.GameState.miniGame1 )
+		if( GameController.runtime.curState == GameController.GameState.miniGame1 && MenuController.isInMenu == false )
 		{
-			bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
+			bool menuOk = Common.input.GetButtonUp(SSSInput.InputType.Ok);
 			if( menuOk  && menuOk != MenuController.prevMenuOk )
 			{
 				GameController.runtime.skipMiniGame1();
@@ -114,17 +114,21 @@ public class winGame : BaseWindow
 			MenuController.prevMenuOk = menuOk;
 			
 			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
-			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel)
 			{
+				GameController.runtime.screen_minigame.gameObject.SetActive (false);
+				GameController.runtime.screen_cancel.gameObject.SetActive (true);
+				CFInput.ctrl = GameController.runtime.screen_cancel.GetComponent<TouchController>();
 				MenuController.isInMenu = true;
 				winSure.isFromLevel = true;
 				GameController.runtime.isPaused = true;
 				InterfaceController.openPopUp( MenuController.runtime.win_Sure );
+
 			}
 			MenuController.prevMenuCancel = menuCancel;
 			
 		}
-		if( GameController.runtime.curState == GameController.GameState.miniGame2 )
+		if( GameController.runtime.curState == GameController.GameState.miniGame2 && MenuController.isInMenu == false)
 		{
 			bool menuOk = Common.input.GetButtonDown(SSSInput.InputType.Ok);
 			if( menuOk && menuOk != MenuController.prevMenuOk )
@@ -136,6 +140,9 @@ public class winGame : BaseWindow
 			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Cancel);
 			if( menuCancel && menuCancel != MenuController.prevMenuCancel )
 			{
+				GameController.runtime.screen_minigame2.gameObject.SetActive (false);
+				GameController.runtime.screen_cancel.gameObject.SetActive (true);
+				CFInput.ctrl = GameController.runtime.screen_cancel.GetComponent<TouchController>();
 				MenuController.isInMenu = true;
 				winSure.isFromLevel = true;
 				GameController.runtime.isPaused = true;

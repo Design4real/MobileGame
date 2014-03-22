@@ -379,7 +379,6 @@ public class Transport : MonoBehaviour
 		}
 		if (Common.input.GetButtonDown(SSSInput.InputType.Steering_Circle))
 		{
-			Debug.Log(SSSInput.InputType.Steering_Circle);
 			newModeInd = movementModes.FindIndex( a => a is SteerMode.Circle );
 		}
 		if (Common.input.GetButtonDown(SSSInput.InputType.Steering_DiagonalAlong))

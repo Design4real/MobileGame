@@ -541,6 +541,15 @@ public class SSSInput
 
 		return CFInput.GetButtonDown(selectedInput[type]);
 	}
+
+	public bool GetButtonUp(InputType type)
+	{
+		if (!checkSelectedInput())
+		{
+			return false;
+		}
+		return CFInput.GetButtonUp(selectedInput[type]);
+	}
 	
 	public float GetAxis(InputType type)
 	{
@@ -549,7 +558,7 @@ public class SSSInput
 			return 0;
 		}
 		
-		return Input.GetAxis(selectedInput[type]);
+		return CFInput.GetAxis(selectedInput[type]);
 	}
 	
 	public float GetAxisRaw(InputType type)
@@ -558,7 +567,6 @@ public class SSSInput
 		{
 			return 0;
 		}
-		if ( (CFInput.GetAxisRaw (selectedInput [type])) != 0 ) {Debug.Log (CFInput.GetAxisRaw (selectedInput [type]));}
 		return CFInput.GetAxisRaw(selectedInput[type]);
 	}
 }
@@ -572,7 +580,6 @@ public class Common
 		{
 			if (_input == null)
 			{
-				Debug.Log("null");
 				_input = new SSSInput();
 				if (Application.loadedLevel != 0)
 				{

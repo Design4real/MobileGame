@@ -184,6 +184,9 @@ public class LevelTransport : Transport
 					target.gameObject.SetActive(false);
 					target = parkingTarget;
 					target.gameObject.SetActive(true);
+					GameController.runtime.screen_maingame.gameObject.SetActive (false);
+					GameController.runtime.screen_minigame2.gameObject.SetActive (true);
+					CFInput.ctrl = GameController.runtime.screen_minigame2.GetComponent<TouchController>();
 					GameController.runtime.curState = GameController.GameState.miniGame2;
 				}
 			}

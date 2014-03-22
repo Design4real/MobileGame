@@ -13,7 +13,7 @@ function Update () {
 function OnCollisionEnter (collision : Collision)
 {
 	this.GetComponent(Rigidbody).useGravity = true;
-	var lightvis = gameObject.GetComponentInChildren(LightVisibility);
-	lightvis.broken = true;
-	if (lightvis != null) {lightvis.broken = true;}
+//	var lightvis = gameObject.GetComponentInChildren(LightVisibility);
+//	lightvis.broken = true;
+//	if (lightvis != null) {lightvis.broken = true;}
 }

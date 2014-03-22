@@ -21,7 +21,13 @@ public class GameController : MonoBehaviour
 	
 	//public Transform cutScene0;
 	public Transform cutScene1;
-	
+
+	public Transform screen_minigame;
+	public Transform screen_minigame2;
+	public Transform screen_cutscene;
+	public Transform screen_maingame;
+	public Transform screen_cancel;
+
 	public Transform hitParticlesPrefab;
 	private int livesCount;
 	
@@ -61,7 +67,7 @@ public class GameController : MonoBehaviour
 	
 	public GameState curState;
 	
-	float maxIdleTime = 1.5f * 60;
+	float maxIdleTime = 1.5f * 260;
 	float idleTimeCounter;
 	
 	void Awake()
@@ -76,20 +82,16 @@ public class GameController : MonoBehaviour
 		curState = GameState.miniGame1;
 		curParkingTransport = parkingTransports.FirstOrDefault(a => !a.reached);
 	}
-
-	// Use this for initialization
+	
 	void Start () 
 	{
 		idleTimeCounter = 0;
 	}
 	
 	int tmp = 0;
-	
-	// Update is called once per frame
+
 	void Update () 
 	{
-		//Debug.Log (curState + "___________________________________________");
-		
 		if (curState == GameState.loose && levelTransport.enabled)
 		{
 			levelTransport.enabled = false;
@@ -144,6 +146,9 @@ public class GameController : MonoBehaviour
 			}
 			if (cutSceneEnded)
 			{
+				screen_cutscene.gameObject.SetActive (false);
+				GameController.runtime.screen_maingame.gameObject.SetActive (true);
+				CFInput.ctrl = GameController.runtime.screen_maingame.GetComponent<TouchController>();
 				Destroy(cutScene1.gameObject);
 				curState = GameState.mainGame;
 				levelTransport.gameObject.SetActive(true);
@@ -182,9 +187,12 @@ public class GameController : MonoBehaviour
 	{
 		if( curState == GameState.cutScene1 || curState == GameState.miniGame2 )
 		{
-			bool menuCancel = Common.input.GetButtonDown(SSSInput.InputType.Ok);
-			if( menuCancel && menuCancel != MenuController.prevMenuCancel || Input.anyKey )
+			bool menuCancel = Common.input.GetButtonUp(SSSInput.InputType.Ok);
+			if( menuCancel && menuCancel != MenuController.prevMenuCancel)
 			{
+				screen_cutscene.gameObject.SetActive (false);
+				screen_maingame.gameObject.SetActive (true);
+				CFInput.ctrl = screen_maingame.GetComponent<TouchController>();
 				skipCutScene();
 			}
 			MenuController.prevMenuCancel = menuCancel;
@@ -202,12 +210,15 @@ public class GameController : MonoBehaviour
 	public void skipMiniGame1()
 	{
 		curState = GameState.cutScene1;
+		screen_minigame.gameObject.SetActive (false);
+		screen_cutscene.gameObject.SetActive (true);
+		CFInput.ctrl = screen_cutscene.GetComponent<TouchController>();
 		foreach (Transform curTrans in miniGame1_objects)
 		{
 			Destroy(curTrans.gameObject);
 		}
 		cutScene1.gameObject.SetActive(true);
-		Input.ResetInputAxes();
+		CFInput.ResetInputAxes();
 	}
 	
 	public bool skipCutScene()

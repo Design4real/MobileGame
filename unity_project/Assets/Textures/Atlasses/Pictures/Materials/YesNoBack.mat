@@ -48,16 +48,16 @@ Material:
         second: .5
       data:
         first:
-          name: _InvFade
-        second: 1
-      data:
-        first:
           name: _Shininess
         second: .200000003
       data:
         first:
           name: _EmissionLM
         second: 0
+      data:
+        first:
+          name: _InvFade
+        second: 1
       data:
         first:
           name: _Focus
