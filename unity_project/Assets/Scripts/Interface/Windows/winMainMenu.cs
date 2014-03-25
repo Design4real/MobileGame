@@ -8,10 +8,10 @@ public class winMainMenu : BaseWindow
 	void Awake()
 	{
 		Input.ResetInputAxes();
-		MovieTexture movie = ( (MovieTexture)video.GetComponent< UITexture >().material.mainTexture );
-		movie.anisoLevel = 8;
-		movie.loop = true;
-		movie.Play();
+//		MovieTexture movie = ( (MovieTexture)video.GetComponent< UITexture >().material.mainTexture );
+//		movie.anisoLevel = 8;
+//		movie.loop = true;
+//		movie.Play();
 		
 		Debug.Log(Common.selectedInputSourceTypeString);
 		//Common.input.setInputSourceType(SSSInput.InputSourceType.None);

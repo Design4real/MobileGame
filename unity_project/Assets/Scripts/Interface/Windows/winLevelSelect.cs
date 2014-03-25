@@ -20,10 +20,10 @@ public class winLevelSelect : BaseWindow
 	
 	void Awake()
 	{
-		MovieTexture movie = ( (MovieTexture)video.GetComponent< UITexture >().material.mainTexture );
-		movie.anisoLevel = 8;
-		movie.loop = true;
-		movie.Play();
+//		MovieTexture movie = ( (MovieTexture)video.GetComponent< UITexture >().material.mainTexture );
+//		movie.anisoLevel = 8;
+//		movie.loop = true;
+//		movie.Play();
 		isDescriptionShow = false;
 		for( int i = 0; i < levelsDescription.Length; i++ )
 		{
