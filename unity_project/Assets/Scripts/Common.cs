@@ -451,14 +451,14 @@ public class SSSInput
 	
 	private bool checkSelectedInput()
 	{
-		if (selectedInput == null)
-		{
-			if (Application.loadedLevel != 0)
-			{
-				Debug.LogError("Input source type is not selected");
-			}
-			return false;
-		}
+//		if (selectedInput == null)
+//		{
+//			if (Application.loadedLevel != 0)
+//			{
+//				Debug.LogError("Input source type is not selected");
+//			}
+//			return false;
+//		}
 		return true;
 	}
 	
@@ -581,10 +581,10 @@ public class Common
 			if (_input == null)
 			{
 				_input = new SSSInput();
-				if (Application.loadedLevel != 0)
-				{
+//				if (Application.loadedLevel != 0)
+//				{
 					_input.setInputSourceType(SSSInput.InputSourceType.Custom);
-				}
+//				}
 			}
 			return _input;
 		}
